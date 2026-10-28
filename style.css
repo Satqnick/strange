@@ -9,6 +9,7 @@ body {
     height: 100vh; 
     margin: 0;
     background-color: #050505;
+    font-family: 'Poppins', sans-serif;
 }
 .card
 h1 {
