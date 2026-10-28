@@ -63,13 +63,13 @@ button:hover {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Mengatur jarak renggang antar ikon */
-    margin-bottom: 25px; /* Memberi jarak antara ikon dengan tombol "Say Hi" di bawahnya */
+    gap: 20px;
+    margin-bottom: 25px;
 }
 
 .social-icons a {
-    color: #aaaaaa; /* Warna abu-abu redup bawaan */
-    font-size: 26px; /* Ukuran ikon */
+    color: #aaaaaa;
+    font-size: 26px;
     transition: all 0.3s ease;
 }
 .social-icons a:hover {
