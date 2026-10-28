@@ -13,7 +13,7 @@ body {
 }
 .card
 h1 {
-    color: rgb(83, 121, 179);
+    color: rgb(228, 228, 44);
 }
 .card {
     background-color: #1a1a1a;
@@ -59,6 +59,22 @@ button:hover {
     background-color: #00ff00;
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(46, 204, 113, 0.4);
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Mengatur jarak renggang antar ikon */
+    margin-bottom: 25px; /* Memberi jarak antara ikon dengan tombol "Say Hi" di bawahnya */
+}
+
+.social-icons a {
+    color: #aaaaaa; /* Warna abu-abu redup bawaan */
+    font-size: 26px; /* Ukuran ikon */
+    transition: all 0.3s ease;
+}
+.social-icons a:hover {
+    color: #3498db;
+    transform: scale(1.2);
 }
 @media (max-width: 600px) {
     h1 {
